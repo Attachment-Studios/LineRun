@@ -1,0 +1,168 @@
+<html>
+    <head>
+        <title>LineLearn</title>
+        <link rel="shortcut icon" href="https://github.com/Attachment-Studios/LineRun/blob/Web-Page/Icon.png?raw=true" type="image/png">
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+        .nav button{
+            font-size: 20px;
+            font-family: 'Cousine', monospace;
+            border: 2px solid rgb(255, 144, 2);
+            border-radius: 10px;
+            margin-bottom: 15px;
+            cursor: pointer;
+        }
+        .nav button:hover{
+            font-size: 20px;
+            border: 2px solid #000000;
+            background-color: rgb(255, 144, 2);
+        }
+        *{
+            background-color: #e6e6e6;
+            font-family: 'Josefin Sans', sans-serif;
+            cursor: default;
+        }
+        .container hr{
+            height: 5px;
+            border: none;
+            border-radius: 10px;
+            background: rgb(255, 144, 2);
+        }
+        .banner{
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 140px;
+        }
+        h3{
+            font-size: 45px;
+        }
+        h4{
+            font-size: 25px;
+            margin-top: -20px;
+        }
+        a{
+            color: #000000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        a:hover{
+            color:rgb(255, 144, 2);
+            text-decoration: none;
+            cursor: pointer;
+        }
+        pre{
+            position: relative;
+            border: 2px solid rgb(255, 144, 2);
+            margin: 10px;
+            margin-top: -15px;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 15px;
+            font-family: 'Cousine', monospace;
+            margin-bottom: 40px;
+            width: 50%;
+            overflow: auto;
+        }
+        table{
+            border: 2px solid rgb(255, 144, 2);
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: -20px;
+            margin-bottom: 40px;
+        }
+        table tr th{
+            border: 2px solid rgb(255, 144, 2);
+            font-size: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 25%;
+        }
+        table tr td{
+            border: 2px solid rgb(255, 144, 2);
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    </style>
+    <body>
+        <center><div class="nav">
+            <a href="http://attachment-studios.github.io/LineRun"><button type="button">LineRun</button></a>
+            <a href="../wiki/wiki.html"><button type="button">Wiki</button></a>
+            <a href="http://github.com/Attachment-Studios/LineRun/"><button type="button">GitHub</button></a>
+            <a href="http://attachment-studios.github.io/LineRun/index.html#download"><button type="button">Download</button></a>
+        </div></center>
+        <div class="container">
+            <div class="banner">
+            <center><img src="http://github.com/Attachment-Studios/LineRun/blob/Web-Page/LineRun.png?raw=true"></center>
+            </div>
+            <hr>
+            <div class="about">
+                <h3>Command List</h3>
+                <h4>LOG</h4>
+                <table>
+                    <tr>
+                        <th>Command</th>
+                        <th>ID</th>
+                        <th>Version</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td><a href="log/test.html">log.test</a></td><td>001</td><td>0.0.1_1/a</td><td>Prints 'Tested!' in console</td>
+                    </tr>
+                    <tr>
+                        <td>log.version()</td><td>002</td><td>0.0.1_3/a</td><td>Prints LineRun's Version in console</td>
+                    </tr>
+                    <tr>
+                        <td>log.text(str)</td><td>003<td>0.0.1_5/a</td><td>Prints str value in console and by default converts anything into string format but apparently using a "," seperates two value and only first value input gets registered</td>
+                    </tr>
+                </table>
+                <h4>VAR</h4>
+                <table>
+                    <tr>
+                        <th>Command</th>
+                        <th>ID</th>
+                        <th>Version</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>var.num(name)</td><td>004</td><td>0.0.1_6/a</td><td>Creates a new number variable named name and default value is 0</td>
+                    </tr>
+                    <tr>
+                        <td>var.lgc(name)</td>
+                        <td>005</td>
+                        <td>0.0.1_6/a</td>
+                        <td>Creates a new logic variable named name and default value is false</td>
+                    </tr>
+                    <tr>
+                        <td>var.str(name)</td>
+                        <td>006</td>
+                        <td>0.0.1_6/a</td>
+                        <td>Creates a new string variable named name and default value is "text"</td>
+                    </tr>
+                    <tr>
+                        <td>var.getVal(name)</td>
+                        <td>007</td>
+                        <td>0.0.1_6/a</td>
+                        <td>Prints value of variable named name in console if it exists</td>
+                    </tr>
+                    <tr>
+                        <td>var.setVal(name, value)</td>
+                        <td>008</td>
+                        <td>0.0.1_6/a</td>
+                        <td>Changes value of variable named name to value and returns error if value does not exists or matches the variable type</td>
+                    </tr>
+                    <tr>
+                        <td>var.type(name)</td>
+                        <td>009</td>
+                        <td>0.0.1_6/a</td>
+                        <td>Prints the type of the variable which is named name</td>
+                    </tr>
+                </table>
+            </div>
+            <hr>
+        </div>
+</html>
