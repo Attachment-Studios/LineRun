@@ -1,0 +1,22 @@
+### SOURCE ADDITIONS(FILES) ###
+-> Updated main.lua
+-> Updated conf.lua
+-> Updated is.lua
+-> Updated var.lua
+-> Updated system.lua
+
+### ADDITIONAL ADDITIONS(FILES) ###
+-> Updated Progress.txt
+-> Updated Commands.txt
+-> Updated What's New.txt
+
+### CODING(COMMANDS) ###
+-> ui.bgc(r, g, b, a)
+-> ui.bgoc(r, g, b, a)
+-> ui.oc(r, g, b, a)
+-> ui.reset()
+
+### NOTES ###
+-> You need LOVE2D( https://love2d.org ) to run project
+-> Only ".linecode" files work for coding, else error
+-> Use a ".lineui" file for setting and saving color theme for ui

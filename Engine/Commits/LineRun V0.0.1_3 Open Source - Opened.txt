@@ -1,0 +1,17 @@
+### SOURCE ADDITIONS(FILES) ###
+-> main.lua
+-> conf.lua
+-> CI.lua
+-> is.lua
+-> log.lua
+
+### ADDITIONAL ADDITIONS(FILES) ###
+-> Progress.txt
+-> Commands.txt
+
+### CODING(COMMANDS) ###
+-> Added log.test() or log.test
+-> Added -->$Comment
+
+### NOTES ###
+-> You need LOVE2D( https://love2d.org ) to run project

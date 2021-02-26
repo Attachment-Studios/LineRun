@@ -1,0 +1,23 @@
+### SOURCE ADDITIONS(FILES) ###
+-> Updated main.lua
+-> Updated conf.lua
+-> Updated is.lua
+-> Updated log.lua
+-> Added var.lua
+
+### ADDITIONAL ADDITIONS(FILES) ###
+-> Updated Progress.txt
+-> Updated Commands.txt
+-> Updated What's New.txt
+
+### CODING(COMMANDS) ###
+-> Added var.num(name)
+-> Added var.lgc(name)
+-> Added var.str(name)
+-> Added var.getVal(name)
+-> Added var.setVal(name, value)
+-> Added var.typeTable(name)
+
+### NOTES ###
+-> You need LOVE2D( https://love2d.org ) to run project
+-> Only ".linecode" files work else error

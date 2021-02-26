@@ -1,0 +1,21 @@
+### SOURCE ADDITIONS(FILES) ###
+-> Updated main.lua
+-> Updated conf.lua
+-> Updated is.lua
+-> Updated log.lua
+-> Added UI.lua
+
+### ADDITIONAL ADDITIONS(FILES) ###
+-> Updated Progress.txt
+-> Updated Commands.txt
+-> Added What's New.txt
+-> Added LineRun.png
+-> Added LineRun Icon.png
+-> Added font.ttf(Josefin Sans)
+
+### CODING(COMMANDS) ###
+-> Added log.text(str)
+
+### NOTES ###
+-> You need LOVE2D( https://love2d.org ) to run project
+-> Use ".linecode" files as official file type for LineRun

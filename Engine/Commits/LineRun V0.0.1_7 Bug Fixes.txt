@@ -1,0 +1,19 @@
+### SOURCE ADDITIONS(FILES) ###
+-> Updated main.lua
+-> Updated conf.lua
+-> Updated is.lua
+-> Updated log.lua
+-> Updated var.lua
+-> Updated system.lua
+
+### ADDITIONAL ADDITIONS(FILES) ###
+-> Updated Progress.txt
+-> Updated Commands.txt
+-> Updated What's New.txt
+
+### CODING(COMMANDS) ###
+
+### NOTES ###
+-> You need LOVE2D( https://love2d.org ) to run project
+-> Only ".linecode" files work else error
+-> Next Version Will Be V0.0.1_B1(B1 Is BETA 1)
