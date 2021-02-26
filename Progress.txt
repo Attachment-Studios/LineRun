@@ -1,0 +1,65 @@
++----------------------------------------------+
+|This file contains version logs only, not code|
++----------------------------------------------+
+
+V0.0.0
+--> Dev Start
+
+V0.0.1_0
+--> Source Code Input 1 - File Drop
+--> Added Iterations
+
+V0.0.1_1
+--> Added Testificate Command
+
+V0.0.1_2
+--> Improved Iterations - Now spaces after commands before next line don't create problem
+
+V0.0.1_3
+--> Added More Commands
+--> Added Commenting Ability
+
+V0.0.1_4
+--> Open Source - Opened
+
+V0.0.1_5
+--> Improved Iterations - Arguments Can Be Read Now
+--> Improved Iterations - Errors On Unkown Fragments And Incomplete Commands
+--> Improved UI
+--> Added More Commands
+
+V0.0.1_6
+--> Added More Commands
+--> Improved Iterations - Spaces Are Not Recognized Inside Parenthesis
+--> Added Variables
+--> Only ".linecode" Files Are Accepted
+--> Seperated Version Files And Folders
+
+V0.0.1_7
+--> Fixed Variables Bug
+--> Save Directory Location Changed
+--> System Files Are Different And Store Iteration Functions
+--> Slight Negligible Iteration Changes
+--> Fixed Repetition Bug
+--> Fixed Irrelevant Error Bug
+--> Made Some Basic Configuration Changes
+
+V0.0.1_B1(V0.0.1_8)
+--> Added String Ability
+--> Now Double Quote Convert Anything Into Strings
+--> Added An Editer Extension
+--> Added Connect To Editer
+--> Added Ability To Change Color And Some Basic Appearance Of UI
+--> ".lineui" Is Set As An Extension File For Theme And UI
+--> Added Some Commands
+--> The Brand Image Is Now An Background Object
+--> Improved Iterations - Return Valued Commands Now Exist
+--> Now Before Starting, If Running A BETA Version, Then Ask If To Continue
+--> On LAG For Long Time, LineRun Spots And Asks If To Reload
+
+V0.0.1_B1(V0.0.1_9)
+--> Added Some Commands
+
+V0.0.1_B1(V0.0.1_10)
+--> Added Some Commands
+--> Now Editor Checking File Comes Under Cache

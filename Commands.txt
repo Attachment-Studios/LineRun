@@ -1,0 +1,64 @@
++-------------------------------------------+
+|Command Syntax - ID - Version - Description|
++-------------------------------------------+
+
+|NOTES
+--> Command Syntax without arguments convey that 
+ -> if there is something inside parenthesis then an error might generate
+--> In Version representation format is a.b.c_d/s
+ -> "a" is main version
+ -> "b" is generation build number or simply how many updates made in main version
+ -> "c" is generation sub-version
+ -> "d" is total set of changes in generations
+ -> "s" is status of release with three major values
+  > "a" represents "added"
+  > "b" represents "building" or "in progress"
+  > "r" represents "replaced" or "changed"
+  > "d" represents "dropped" or "deleted"
+  > "c" represents "crashed" or "not working"
+  > "e" represents "exists" or "not used" or "removal in future"
+  > "u" represents "updated"
+--> Commands with same ID different version means that the late created command replaced older ones
+
+|SPECIALS
+--> Comment using "-->$" since V0.0.1_3
+
+|LOG
+--> log.test() - 001 - 0.0.1_1/a - Prints 'Tested!' in console
+--> log.version() - 002 - 0.0.1_3/a - Prints LineRun's Version in console
+--> log.text(str) - 003 - 0.0.1_5/a - Prints str value in console and by default converts anything into string format but apparently using a "," seperates two value and only first value input gets registered
+
+|VAR
+--> var.num(name) - 004 - 0.0.1_6/a - Creates a new number variable named name and default value is 0
+--> var.lgc(name) - 005 - 0.0.1_6/a - Creates a new logic variable named name and default value is false
+--> var.str(name) - 006 - 0.0.1_6/a - Creates a new string variable named name and default value is "text"
+--> var.getVal(name) - 007 - 0.0.1_6/a - Prints value of variable named name in console if it exists
+--> var.setVal(name, value) - 008 - 0.0.1_6/a - Changes value of variable named name to value and returns error if value does not exists or matches the variable type
+--> var.type(name) - 009 - 0.0.1_6/a - Prints the type of the variable which is named name
+
+|UI
+--> ui.bgc(r, g, b, a) - 010 - 0.0.1_8(BETA 1)/a - Sets the background color to r, g, b and a where values are binary(0-1)
+--> ui.bgoc(r, g, b, a) - 011 - 0.0.1_8(BETA 1)/a - Sets the background object color to r, g, b and a where values are binary(0-1)
+--> ui.oc(r, g, b, a) - 012 - 0.0.1_8(BETA 1)/a - Sets the non background object(other than images) color to r, g, b and a where values are binary(0-1)
+--> ui.reset() - 013 - 0.0.1_8(BETA 1)/a - Resets UI after 2 restarts
+
+|SPEAK
+--> speak.test - 014 - 0.0.1_9(BETA 1)/a - Speaks 'Tested!'
+--> speak.version() - 015 - 0.0.1_9(BETA 1)/a - Speaks LineRun's Version
+--> speak.text(str) - 016 - 0.0.1_9(BETA 1)/a - Speaks str value in console and by default converts anything into string format but apparently using a "," seperates two value and only first value input gets registered
+--> tts.test - 017 - 0.0.1_9(BETA 1)/a - Speaks 'Tested!'
+--> tts.version() - 018 - 0.0.1_9(BETA 1)/a - Speaks LineRun's Version
+--> tts.text(str) - 019 - 0.0.1_9(BETA 1)/a - Speaks str value in console and by default converts anything into string format but apparently using a "," seperates two value and only first value input gets registered
+
+|TIME
+--> time.wait(n) - 020 - 0.0.1_9(BETA 1)/a - Creates a pause of n seconds
+
+|SYSTEM
+--> system.quit() - 021 - 0.0.1_10(BETA 1)/a - Quits The Engine
+--> system.restart() - 022 - 0.0.1_10(BETA 1)/a - Restarts the Engine
+--> system.cache(arg) - 023 - 0.0.1_10(BETA 1)/a - If value of arg is "dir" then prints cache directory or if value of arg is "clear" then clear the cache else does work for "dir" value of arg
+
+|WINDOW
+--> window.title(name) - 024 - 0.0.1_10(BETA 1)/a - Sets the title of the window to name
+--> window.aspects(w, h, r) - 025 - 0.0.1_10(BETA 1)/a - Sets the width of the window to w and height of the window to h while r corresponds to resizable and can carry logic values
+--> window.position(x, y) - 026 - 0.0.1_10(BETA 1)/a - Sets the position of the window to x and y
